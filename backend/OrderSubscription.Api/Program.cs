@@ -1,3 +1,4 @@
+using OrderSubscription.Api.Middlewares;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services
@@ -16,6 +17,8 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 if (app.Environment.IsDevelopment())
 {

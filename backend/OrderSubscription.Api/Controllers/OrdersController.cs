@@ -85,4 +85,10 @@ public class OrdersController : ControllerBase
         order.DeletedAt = DateTime.UtcNow;
         return NoContent();
     }
+
+    [HttpGet("crash")]
+    public IActionResult Crash()
+    {
+        throw new Exception("Something went wrong. Please try again later.");
+    }
 }

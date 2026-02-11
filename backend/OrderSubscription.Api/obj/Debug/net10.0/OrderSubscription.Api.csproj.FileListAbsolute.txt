@@ -34,3 +34,4 @@ C:\Dev\.Net\OrderSubscription\backend\OrderSubscription.Api\obj\Debug\net10.0\re
 C:\Dev\.Net\OrderSubscription\backend\OrderSubscription.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Dev\.Net\OrderSubscription\backend\OrderSubscription.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Dev\.Net\OrderSubscription\backend\OrderSubscription.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Dev\.Net\OrderSubscription\backend\OrderSubscription.Api\obj\Debug\net10.0\OrderSubscription.Api.sourcelink.json
