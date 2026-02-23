@@ -30,4 +30,9 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
+app.MapGet("/api/crash", () =>
+{
+    throw new Exception("Something went wrong. Please try again later.");
+});
+
 app.Run();

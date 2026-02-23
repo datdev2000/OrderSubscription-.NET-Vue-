@@ -86,9 +86,9 @@ public class OrdersController : ControllerBase
         return NoContent();
     }
 
-    [HttpGet("crash")]
-    public IActionResult Crash()
-    {
-        throw new Exception("Something went wrong. Please try again later.");
-    }
+    // [HttpGet("crash")]
+    // public IActionResult Crash()
+    // {
+    //     throw new Exception("Something went wrong. Please try again later.");
+    // }
 }
